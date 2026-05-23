@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+  <title id="title">Watson logo</title>
+  <desc id="desc">A black and white mark showing two overlapping companion profiles.</desc>
+  <rect x="78" y="78" width="564" height="564" rx="126" fill="#fff" stroke="#000" stroke-width="18"/>
+
+  <path fill="#000" d="M160 526c29-90 86-137 167-137 80 0 138 47 167 137H160z"/>
+  <circle cx="327" cy="302" r="82" fill="#000"/>
+  <path fill="#000" d="M223 278c18-55 69-88 126-80 43 6 78 34 94 73l-220 7z"/>
+  <rect x="191" y="262" width="278" height="36" rx="18" fill="#000"/>
+  <path fill="#000" d="M269 225l21-56c3-9 15-12 22-4l48 50-91 10z"/>
+
+  <path fill="#fff" stroke="#000" stroke-width="20" stroke-linejoin="round" d="M278 540c29-94 86-143 170-143 83 0 141 49 170 143H278z"/>
+  <circle cx="448" cy="314" r="84" fill="#fff" stroke="#000" stroke-width="20"/>
+  <path fill="#000" d="M372 263c13-50 139-50 152 0H372z"/>
+  <rect x="346" y="257" width="204" height="36" rx="18" fill="#000"/>
+  <circle cx="448" cy="314" r="24" fill="#fff"/>
+</svg>

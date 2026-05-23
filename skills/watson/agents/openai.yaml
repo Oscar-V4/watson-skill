@@ -1,0 +1,4 @@
+interface:
+  display_name: "Watson"
+  short_description: "Find tools, skills, repos, and harnesses"
+  default_prompt: "Use $watson to research useful repos, skills, tools, SaaS, and harness options for this task before recommending a path."
