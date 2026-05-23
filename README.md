@@ -10,18 +10,20 @@
   <a href="docs/README.zh-CN.md">简体中文</a>
 </p>
 
-**Watson은 목표에 맞는 실행 전략을 같이 설계해주는 적응형 리서치 파트너입니다.**  
-사용자의 목표, 제약, 현재 작업 맥락을 읽고 필요한 도구, GitHub 레포, 스킬, MCP, SaaS/API, 워크플로우 스택을 찾아 비교한 뒤 “바로 쓸 추천” 또는 “레이어드 하네스 설계”로 정리합니다.
+**도와줘 왓슨...!**
 
-- 목표와 요구조건을 읽고 필요한 역량을 분해합니다.
+**Watson은 목표에 맞는 실행 전략을 같이 설계해주는 적응형 리서치 파트너입니다.**  
+사용자의 목표, 제약, 현재 작업 맥락을 읽고 필요한 도구, GitHub 레포, 스킬, MCP, SaaS/API, 워크플로우 스택을 찾아 비교한 뒤 “바로 쓸 프로그램 추천” 또는 “레이어드 하네스 설계”로 정리합니다.
+
+- 목표와 요구조건을 읽고 유저가 필요로 하는 기능을 분석합니다.
 - GitHub, 공식 문서, starred repos, 로컬 스킬, MCP, SaaS/API 후보를 탐색합니다.
 - 오래된 레포, 약한 유지보수 신호, 과한 설치 표면, 보안 리스크를 걸러냅니다.
 - 1-3개 도구면 충분한지, 여러 레이어의 작업 스택이 필요한지 판단합니다.
-- 채택 순서, 난이도, 위험, 당장 할 일과 미룰 일을 함께 제안합니다.
+- 채택 순서, 난이도, 위험성, 당장 할 일과 미룰 일을 함께 제안합니다.
 
 ## 빠른 설치
 
-친구에게 공유할 때는 아래 프롬프트를 그대로 복사해서 Codex, Claude Code, Antigravity 같은 에이전트에게 붙여넣으면 됩니다.
+아래 프롬프트를 그대로 복사해서 Codex, Claude Code, Antigravity 같은 에이전트에게 붙여넣으세요.
 
 ```text
 이 GitHub repo를 확인해서 Watson 에이전트 스킬을 설치해줘:
@@ -66,7 +68,7 @@ python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github
 Watson은 보통 아래처럼 답합니다.
 
 - **Task Read**: 사용자의 목표와 필요한 역량 요약
-- **Expert Lenses**: 이번 탐색에 쓸 관점 1-3개
+- **Expert Lenses**: 이번 탐색에 쓸 전문가 페르소나 1-3개
 - **Discovery Summary**: GitHub, stars, web/SaaS/API, 로컬 스킬/MCP에서 확인한 것
 - **Candidate Table**: 후보별 용도, 최신성, 신뢰/보안 메모, 난이도, 타이밍
 - **Recommended Path**: 간단 추천인지, 레이어드 하네스 설계인지 결정
@@ -96,8 +98,6 @@ Watson은 **설계 파트너 + 적응형 전략가**에 가깝습니다.
 - 프로젝트 코드 수정
 
 ## 스킬 전문
-
-표준 설치 명령은 `skills/watson` 폴더만 설치합니다. 따라서 이 README가 길어져도 설치된 스킬이 자동으로 더 무거워지지는 않습니다. 에이전트가 실제로 스킬로 읽는 핵심 파일은 `skills/watson/SKILL.md`입니다.
 
 <details>
 <summary><code>skills/watson/SKILL.md</code> 전문 보기</summary>
