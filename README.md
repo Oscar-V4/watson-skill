@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/watson-logo.svg" alt="Watson logo" width="168">
+  <img src="assets/watson-logo.png" alt="Watson logo" width="168">
 </p>
 
 # Watson
@@ -308,7 +308,7 @@ For the original pilot prompt, expected behavior, and feedback rubric, read `ref
 watson-skill/
 ├── README.md
 ├── assets/
-│   └── watson-logo.svg
+│   └── watson-logo.png
 ├── docs/
 │   ├── README.en.md
 │   └── README.zh-CN.md
